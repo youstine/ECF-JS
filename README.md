@@ -1,24 +1,21 @@
 # BOILRPLATE-WEBPACK
 
-2018, Loïc Pennequin & Philippe Pary
+2018, Philippe Pary
 
-Environnement de développement simplifié pour les étudiants de Pop School Lens dans le cadre de l'apprentissage de webpack.
+## Description
+
+Application de gestion d'élèves par promotion
+
+## Technologie utilisées
+
+lisez le code
 
 ## Installation
 
-`npm install` pour lancer l’installation des dépendances
+`npm install``
 
-puis
+## Usage
 
-`rm -R .git` pour remettre à zéro la gestion par git
+Développement: `npm run dev` (ouvre un navigateur avec du livereload)
 
-## Commandes
-
-`npm run dev` : lance le serveur de développement et ouvre votre site dans le navigateur
-
-`npm run build` : construit votre site dans le dossier dist
-
-## TODO
-
-[] ESLint config
-[] Units tests (Jasmine, Jext …)
+Production: `npm run build` (crée les fichiers à publier dans `/dist`)
